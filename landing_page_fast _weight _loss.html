@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nicoya PuraTea - Official Deal</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background: #fff;
+      color: #333;
+      padding: 10px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+    }
+    .hero {
+      background: linear-gradient(135deg, #fceabb 0%, #f8b500 100%);
+      text-align: center;
+      padding: 40px 20px;
+      border-radius: 12px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    .hero h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      color: #fff;
+      text-shadow: 2px 2px 8px #00000088;
+    }
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+      color: #f8f8f8;
+    }
+    .btn {
+      display: inline-block;
+      background: #e91e63;
+      color: white;
+      padding: 14px 28px;
+      font-size: 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      animation: heartbeat 1.5s infinite;
+    }
+    @keyframes heartbeat {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.08); }
+      100% { transform: scale(1); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .section {
+      padding: 40px 20px;
+    }
+    .section img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+    }
+    .review-box {
+      background: #f7f7f7;
+      border-left: 4px solid #4caf50;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+    .stars { color: gold; font-size: 18px; }
+    .countdown {
+      font-size: 20px;
+      background: #222;
+      color: #fff;
+      padding: 10px 20px;
+      display: inline-block;
+      margin-top: 10px;
+      border-radius: 8px;
+      animation: flash 1s infinite;
+    }
+    @keyframes flash {
+      0% { background-color: #e91e63; }
+      50% { background-color: #c2185b; }
+      100% { background-color: #e91e63; }
+    }
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <h1>Nicoya PuraTea™ 2025 Official Offer</h1>
+      <p>Get Flat 70% Off + FREE Shipping + Bonus Book Today Only!</p>
+      <a class="btn" href="https://fb433cno79o0bqchpxpopoyifd.hop.clickbank.net">Order Now</a>
+      <div class="countdown">Today’s Deal Expires in: <span id="timer">--:--:--</span></div>
+    </div>
+
+    <div class="section">
+      <h2>Why Choose Nicoya PuraTea?</h2>
+      <p>Clinically tested, US-made premium formula trusted by thousands. Burn fat naturally with this herbal powerhouse!</p>
+      <img src="https://nicoyapuratea.com/images/main-pages-assets/3bottles@3x.png" alt="3 Bottles">
+      <img src="https://nicoyapuratea.com/images/main-pages-assets/fbonus-mobile@3x.png" alt="Bonus Book">
+      <img src="https://nicoyapuratea.com/images/main-pages-assets/sbonus-mobile@3x.png" alt="Bonus Book">
+      <img src="https://nicoyapuratea.com/images/free-deliver-one@3x.png" alt="Free Delivery USA">
+    </div>
+
+    <div class="section">
+      <h2>Real People. Real Results.</h2>
+      <div class="review-box">
+        <p><strong>Jessica R. (Texas):</strong> <span class="stars">★★★★★</span> – "Lost 12 pounds in 3 weeks! Truly amazing."
+        </p>
+      </div>
+      <div class="review-box">
+        <p><strong>Daniel M. (California):</strong> <span class="stars">★★★★★</span> – "My energy is back. I feel 10 years younger!"
+        </p>
+      </div>
+      <div class="review-box">
+        <p><strong>Fatima K. (New York):</strong> <span class="stars">★★★★★</span> – "Appetite control & energy in one. Worth it!"
+        </p>
+      </div>
+      <div class="review-box">
+        <p><strong>Lucas P. (Florida):</strong> <span class="stars">★★★★★</span> – "Best supplement I’ve tried. Period."
+        </p>
+      </div>
+      <div class="review-box">
+        <p><strong>Amelia H. (Chicago):</strong> <span class="stars">★★★★★</span> – "My belly fat is melting. Totally worth the money!"
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Trusted By</h2>
+      <img src="https://nicoyapuratea.com/images/main-pages-assets/prizes-short.png" alt="Trusted Logos">
+    </div>
+
+    <div class="hero">
+      <h2>Don’t Wait – Grab Your Discount Now!</h2>
+      <a class="btn" href="https://fb433cno79o0bqchpxpopoyifd.hop.clickbank.net">Order Nicoya PuraTea</a>
+      <div class="countdown">Offer Ends Today!</div>
+    </div>
+
+    <footer>
+      <p>© 2025 Nicoya PuraTea. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    function startCountdown(duration) {
+      let timer = duration, minutes, seconds;
+      const timerElement = document.getElementById("timer");
+
+      const countdown = setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        if (timerElement) {
+          timerElement.textContent = minutes + ":" + seconds;
+        }
+
+        if (--timer < 0) {
+          clearInterval(countdown);
+          if (timerElement) timerElement.textContent = "00:00";
+        }
+      }, 1000);
+    }
+
+    startCountdown(300); // 5 minutes
+  });
+</script>
